@@ -1,5 +1,8 @@
 # 🏆 알고리즘 스터디
 녹슬지 않도록 꾸준히 풀어봅시다
+```markdown
+Winners are not those who never fail but those who never quit.
+```
 
 <br />
 <br />
