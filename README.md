@@ -28,7 +28,7 @@ Winners are not those who never fail but those who never quit.
 
 ### ✅ commit 컨벤션
 
-- sovle: BOJ_1000_A+B (풀이 완료)
+- solve: BOJ_1000_A+B (풀이 완료)
 - resolve: BOJ_1000_A+B (재풀이 완료)
 - update: BOJ_1000_A+B_version2 (다른 버전 업로드, 2부터 시작)
 
