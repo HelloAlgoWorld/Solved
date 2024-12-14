@@ -11,7 +11,7 @@ import java.util.*;
  * [풀이]
  * 각 노드 기준, 자식으로 가는 간선은 총 몇개가 필요?
  * 노드마다 순회하면서 이를 계산하는 알고리즘
- * 현재 42점
+ * 42점 -> 100점
  */
 
 
@@ -59,8 +59,8 @@ public class Main {
         long answer = 0;
         for(int child : adjList[cur]) {
             if(child == parent) continue;
-            answer += sizes[child] * (sizes[child] - 1) / 2;
-            answer += sizes[child] * (sizes[1] - sizes[child]);
+            answer += (long) sizes[child] * (sizes[child] - 1) / 2;
+            answer += (long) sizes[child] * (sizes[1] - sizes[child]);
             answer += dfsForAnswer(cur, child);
         }
         return answer;
