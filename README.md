@@ -40,6 +40,8 @@ Winners are not those who never fail but those who never quit.
 |-----|-----------------|----|
 |1주차|등산 마니아|https://www.acmicpc.net/problem/20188|
 |1주차|커피숍2|https://www.acmicpc.net/problem/1275|
+|2주차|횡단보도|https://www.acmicpc.net/problem/24042|
+|2주차|산타의선물공장2|https://www.codetree.ai/training-field/frequent-problems/problems/santa-gift-factory-2/description?page=2&pageSize=10|
 
 
 
