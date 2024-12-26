@@ -16,9 +16,9 @@ Winners are not those who never fail but those who never quit.
 
 ### ✅ Repository 폴더 구조
 
-- 주차별 폴더/접두사명_문제번호_문제이름_[버전].java
-- 1주차/BOJ_1000_A+B.java
-- 1주차/BOJ_1000_A+B_version2.java
+- 주차별 폴더_이름/접두사명_문제번호_문제이름_[버전].java
+- 1주차_건준/BOJ_1000_A+B.java
+- 1주차_건준/BOJ_1000_A+B_version2.java
 
 |사이트|접두사명|
 |---|---|
@@ -28,7 +28,7 @@ Winners are not those who never fail but those who never quit.
 
 ### ✅ commit 컨벤션
 
-- sovle: BOJ_1000_A+B (풀이 완료)
+- solve: BOJ_1000_A+B (풀이 완료)
 - resolve: BOJ_1000_A+B (재풀이 완료)
 - update: BOJ_1000_A+B_version2 (다른 버전 업로드, 2부터 시작)
 
@@ -42,6 +42,8 @@ Winners are not those who never fail but those who never quit.
 |1주차|커피숍2|https://www.acmicpc.net/problem/1275|
 |2주차|횡단보도|https://www.acmicpc.net/problem/24042|
 |2주차|산타의선물공장2|https://www.codetree.ai/training-field/frequent-problems/problems/santa-gift-factory-2/description?page=2&pageSize=10|
+|3주차|좋다|https://www.acmicpc.net/problem/1253|
+|3주차|탑보기|https://www.acmicpc.net/problem/22866|
 
 
 
