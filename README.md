@@ -45,7 +45,8 @@ Winners are not those who never fail but those who never quit.
 |2주차|산타의선물공장2|https://www.codetree.ai/training-field/frequent-problems/problems/santa-gift-factory-2/description?page=2&pageSize=10|
 |3주차|좋다|https://www.acmicpc.net/problem/1253|
 |3주차|탑보기|https://www.acmicpc.net/problem/22866|
-
+|4주차|문자열폭발|https://www.acmicpc.net/problem/9935|
+|4주차|성냥개비|https://www.acmicpc.net/problem/3687|
 
 
 
