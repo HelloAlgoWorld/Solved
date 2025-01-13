@@ -49,3 +49,5 @@ Winners are not those who never fail but those who never quit.
 |4주차|성냥개비|https://www.acmicpc.net/problem/3687|
 |5주차|List of Unique Numbers|https://www.acmicpc.net/problem/13144|
 |5주차|그래프 트리 분할|https://www.acmicpc.net/problem/22954|
+|6주차|고층건물|https://www.acmicpc.net/problem/1027|
+|6주차|가희와탑|https://www.acmicpc.net/problem/24337|
