@@ -51,3 +51,5 @@ Winners are not those who never fail but those who never quit.
 |5주차|그래프 트리 분할|https://www.acmicpc.net/problem/22954|
 |6주차|고층건물|https://www.acmicpc.net/problem/1027|
 |6주차|가희와탑|https://www.acmicpc.net/problem/24337|
+|7주차|루돌프 월드컵|https://softeer.ai/practice/7721|
+|7주차|플레이페어 암호|https://softeer.ai/practice/6255|
