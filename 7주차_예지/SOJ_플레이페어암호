@@ -1,0 +1,80 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    static int[][] key;
+    static StringBuilder sb = new StringBuilder();
+    public static void main(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        char[] message = st.nextToken().toCharArray();
+        st = new StringTokenizer(br.readLine());
+        String keyStr = st.nextToken();
+        boolean[] alph = new boolean[26]; 
+        key = new int[26][2];
+        int idx = 0;
+        String answer = "";
+
+        // 암호 배열 만들기
+        alph['J'-'A'] = true;
+        for(int i=0;i<keyStr.length();i++){
+            int a = keyStr.charAt(i) - 'A'; 
+            if(alph[a])continue;
+            alph[a] = true;
+            key[a][0] = idx;
+            key[idx][1] = a;
+            idx++;
+        }
+        for(int i=0;i<26;i++){
+            if(alph[i])continue;
+            key[i][0] = idx;
+            key[idx][1] = i;
+            idx++;
+        }
+
+        //두 글자씩 나누기
+        int left = 0;
+        int right = 1;
+        while(left < message.length){
+            char first = message[left];
+            char second = 'X';
+            if(right < message.length){
+                if(first == message[right]){
+                    if(first == 'X') second = 'Q';
+                    left++;
+                    right++;
+                }else{
+                    second = message[right];
+                    left = right + 1;
+                    right = left + 1;
+                }
+            }else left++;
+
+            encoding(first, second);
+        }
+
+        System.out.println(sb);
+        
+    }
+    
+    public static void encoding(char first, char second){
+        int f = first -'A';
+        int s = second - 'A';
+        
+        int fx = key[f][0]/5;  // 위치
+        int fy = key[f][0]%5;  
+        int sx = key[s][0]/5;
+        int sy = key[s][0]%5;
+        if(fx == sx){  // 같은 행
+            sb.append(String.valueOf((char)(key[fx*5 + ((fy+1) % 5)][1] +'A')));
+            sb.append(String.valueOf((char)(key[sx*5 + ((sy+1) % 5)][1]+'A')));
+        }else if(fy == sy){  // 같은 열
+            sb.append(String.valueOf((char)(key[((fx+1) % 5)*5 + fy][1]+'A')));
+            sb.append(String.valueOf((char)(key[((sx+1) % 5)*5 + sy][1]+'A')));
+        }else{
+            sb.append(String.valueOf((char)(key[fx * 5 + sy][1]+'A')));
+            sb.append(String.valueOf((char)(key[sx * 5 + fy][1]+'A')));
+        }
+    }
+}
