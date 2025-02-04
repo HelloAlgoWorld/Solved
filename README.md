@@ -1,4 +1,4 @@
-
+0
 # 🏆 알고리즘 스터디
 녹슬지 않도록 꾸준히 풀어봅시다
 ```markdown
@@ -53,3 +53,5 @@ Winners are not those who never fail but those who never quit.
 |6주차|가희와탑|https://www.acmicpc.net/problem/24337|
 |7주차|루돌프 월드컵|https://softeer.ai/practice/7721|
 |7주차|플레이페어 암호|https://softeer.ai/practice/6255|
+|8주차|스마트물류|https://softeer.ai/practice/6279|
+|8주차|수퍼바이러스|https://softeer.ai/practice/6292|
