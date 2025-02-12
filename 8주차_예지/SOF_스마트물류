@@ -1,0 +1,42 @@
+/*
+    while : p
+        while : h -> p위치 - h위치 절대값이 k이하가 될때까지 h++;
+    
+*/
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int k = Integer.parseInt(st.nextToken());
+        st = new StringTokenizer(br.readLine());
+        String str = st.nextToken();
+        char[] line = str.toCharArray();
+
+        int pIdx = 0;
+        int hIdx = 0;  // 집어야 하는 부품 위치
+        int cnt = 0;
+
+        while(pIdx < n){
+            while(line[pIdx] == 'P'&& hIdx < n && hIdx - k <= pIdx ){
+                if(line[hIdx] == 'H'){
+                    if(Math.abs(pIdx-hIdx) >=0 && Math.abs(pIdx-hIdx)<=k) {
+                        cnt++;
+                        hIdx++;
+                        break;
+                    }
+                }
+                hIdx++;
+            }
+        
+            pIdx++;
+        }
+      
+            
+        System.out.println(cnt);
+    }
+}
