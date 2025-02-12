@@ -1,0 +1,26 @@
+/* n번 반복하면 시간초과 나기 때문에 제곱 구하는 것을 분할과 정복을 사용하기 
+    1초 당 10*p배 증가
+*/
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long K = sc.nextLong();
+        long P = sc.nextLong();
+        long N = sc.nextLong();
+
+        System.out.println(K * divideAndConquer(P, N*10) % 1000000007);
+    }
+
+    // Math.pow(p, n)을 분할과 정복으로 구하기
+    public static long divideAndConquer(long p, long n){
+        if(n == 1) return p;
+        long result = divideAndConquer(p, n/2);
+        long number = result * result % 1000000007; 
+        if(n%2==1) number = number * p % 1000000007; 
+        return number;
+    }
+}
