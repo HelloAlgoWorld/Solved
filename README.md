@@ -25,6 +25,7 @@ Winners are not those who never fail but those who never quit.
 |백준|BOJ|
 |소프티어|SOF|
 |코드트리|COT|
+|프로그래머스|PG|
 
 ### ✅ commit 컨벤션
 
@@ -54,3 +55,5 @@ Winners are not those who never fail but those who never quit.
 |7주차|플레이페어 암호|https://softeer.ai/practice/6255|
 |8주차|스마트물류|https://softeer.ai/practice/6279|
 |8주차|수퍼바이러스|https://softeer.ai/practice/6292|
+|9주차|함께하는효도|https://softeer.ai/practice/7727|
+|9주차|석유시츄|https://school.programmers.co.kr/learn/courses/30/lessons/250136|
