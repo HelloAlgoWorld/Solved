@@ -8,6 +8,7 @@ import java.util.*;
  * 눈사람간의 최소 차이 구하기 = N
  */
 
+
 class SnowMan implements Comparable<SnowMan> {
     int i;
     int j;
