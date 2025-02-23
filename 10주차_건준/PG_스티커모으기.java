@@ -1,4 +1,5 @@
 public class Solution {
+
     public int solution(int[] sticker) {
         int answer = 0;
         if (sticker.length == 1) return sticker[0];
