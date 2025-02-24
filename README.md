@@ -59,3 +59,5 @@ Winners are not those who never fail but those who never quit.
 |9주차|석유시츄|https://school.programmers.co.kr/learn/courses/30/lessons/250136|
 |10주차|같이 눈사람 만들래?|https://www.acmicpc.net/problem/20366|
 |10주차|스티커 모으기(2)|https://school.programmers.co.kr/learn/courses/30/lessons/12971|
+|11주차|염기서열 커버|https://softeer.ai/practice/6249|
+|11주차|아방가르드 타일링|https://school.programmers.co.kr/learn/courses/30/lessons/181186|
