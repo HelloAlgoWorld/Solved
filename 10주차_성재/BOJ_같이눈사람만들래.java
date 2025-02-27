@@ -30,24 +30,14 @@ public class BOJ_같이눈사람만들래 {
 
         Arrays.sort(diameters);
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n - 3; i++) {
             for (int j = i + 1; j < n; j++) {
                 int snowman1 = diameters[i] + diameters[j];
 
-                int start = 0;
-                int end = n - 1;
+                int start = i + 1;
+                int end = j - 1;
 
                 while (start < end) {
-                    if (start == i || start == j) {
-                        start++;
-                        continue;
-                    }
-
-                    if (end == i || end == j) {
-                        end--;
-                        continue;
-                    }
-
                     int snowman2 = diameters[start] + diameters[end];
                     result = Math.min(result, Math.abs(snowman1 - snowman2));
 
@@ -56,7 +46,8 @@ public class BOJ_같이눈사람만들래 {
                     } else if (snowman1 < snowman2) {
                         end--;
                     } else if (snowman1 == snowman2) {
-                        break;
+                        System.out.println(0);
+                        return;
                     }
                 }
 
